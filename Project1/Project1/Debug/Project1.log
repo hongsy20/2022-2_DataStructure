@@ -1,0 +1,8 @@
+﻿  home.c
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Project1\home.c(151,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Project1\home.c(161,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Project1\home.c(166,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Project1\home.c(181,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Project1\home.c(189,9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Project1\home.c(136,7): warning C4101: 'user' :참조되지 않은 지역 변수입니다.
+  Project1.vcxproj -> D:\#홍서영\대학교\2022년 1학기\데이터 구조\Project1\Debug\Project1.exe
