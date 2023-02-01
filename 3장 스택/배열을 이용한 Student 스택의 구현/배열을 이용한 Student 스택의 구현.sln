@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "배열을 이용한 Student 스택의 구현", "배열을 이용한 Student 스택의 구현\배열을 이용한 Student 스택의 구현.vcxproj", "{55E20DB3-1626-4CB8-AE24-BCFE258EC866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Debug|x64.ActiveCfg = Debug|x64
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Debug|x64.Build.0 = Debug|x64
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Debug|x86.ActiveCfg = Debug|Win32
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Debug|x86.Build.0 = Debug|Win32
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Release|x64.ActiveCfg = Release|x64
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Release|x64.Build.0 = Release|x64
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Release|x86.ActiveCfg = Release|Win32
+		{55E20DB3-1626-4CB8-AE24-BCFE258EC866}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80F1DF5A-8FC2-4137-8DBB-800E92720EFC}
+	EndGlobalSection
+EndGlobal

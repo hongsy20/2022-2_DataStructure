@@ -1,0 +1,5 @@
+﻿  test.c
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\스택(self)\스택(self)\test.c(54,13): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\스택(self)\스택(self)\test.c(53,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\스택(self)\스택(self)\test.c(57,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  스택(self).vcxproj -> D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\스택(self)\Debug\스택(self).exe

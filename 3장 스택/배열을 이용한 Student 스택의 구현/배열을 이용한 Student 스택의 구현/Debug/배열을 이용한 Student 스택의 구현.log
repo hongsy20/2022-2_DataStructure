@@ -1,0 +1,5 @@
+﻿  test.c
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\배열을 이용한 Student 스택의 구현\배열을 이용한 Student 스택의 구현\test.c(53,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\배열을 이용한 Student 스택의 구현\배열을 이용한 Student 스택의 구현\test.c(54,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\배열을 이용한 Student 스택의 구현\배열을 이용한 Student 스택의 구현\test.c(70,2): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+  배열을 이용한 Student 스택의 구현.vcxproj -> D:\#홍서영\대학교\2022년 1학기\데이터 구조\실습\3장 스택\배열을 이용한 Student 스택의 구현\Debug\배열을 이용한 Student 스택의 구현.exe
