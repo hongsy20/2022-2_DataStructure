@@ -1,0 +1,4 @@
+﻿  test.c
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\3장 18번 문자열 역순 출력\3장 18번 문자열 역순 출력\test.c(11,6): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\3장 18번 문자열 역순 출력\3장 18번 문자열 역순 출력\test.c(35,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  3장 18번 문자열 역순 출력.vcxproj -> D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\3장 18번 문자열 역순 출력\Debug\3장 18번 문자열 역순 출력.exe
