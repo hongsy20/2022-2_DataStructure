@@ -1,0 +1,6 @@
+﻿  test.c
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\5장 8번 연락처 저장\5장 8번 연락처 저장\test.c(12,21): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\5장 8번 연락처 저장\5장 8번 연락처 저장\test.c(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\5장 8번 연락처 저장\5장 8번 연락처 저장\test.c(17,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\5장 8번 연락처 저장\5장 8번 연락처 저장\test.c(19,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  5장 8번 연락처 저장.vcxproj -> D:\#홍서영\대학교\2022년 1학기\데이터 구조\연습문제\5장 8번 연락처 저장\Debug\5장 8번 연락처 저장.exe
