@@ -1,35 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int count = 0; // count Àü¿ª º¯¼ö ¼±¾ğ ¹× ÃÊ±âÈ­ (fibo ÇÔ¼ö È£Ãâ ´©Àû º¯¼ö)
+int count = 0; // count ì „ì—­ ë³€ìˆ˜ ì„ ì–¸ ë° ì´ˆê¸°í™”
 
-int fibo(int n) { // fibo ÇÔ¼ö Á¤ÀÇ (ÇÇº¸³ªÄ¡¼ö¿­ °è»ê ¹× Àç±ÍÈ£Ãâ ÇÔ¼ö)
-	count++; // count 1¾¿ Áõ°¡ (ÇÔ¼ö°¡ È£ÃâµÉ ¶§ ¸¶´Ù  È£Ãâ È½¼ö ´©Àû)
-
-	if (n == 0) // ¸¸¾à nÀÌ 0ÀÌ¸é
-		return 0; // °ªÀ» 0À¸·Î ¹İÈ¯
-	else if (n == 1) // ¸¸¾à nÀÌ 1ÀÌ¸é
-		return 1; // °ªÀ» 1·Î ¹İÈ¯
-	else return (fibo(n - 2) + fibo(n - 1)); // ±×·¸Áö ¾ÊÀ¸¸é nÀÇ °ªÀ» °¨¼ÒÇÏ¿© Àç±ÍÇÔ¼ö È£Ãâ
+int fibo(int n) { 
+	count++;
+	
+	if (n == 0) 
+		return 0;
+	else if (n == 1) 
+		return 1;
+	else return (fibo(n - 2) + fibo(n - 1));
 }
 
-int main(void) { // main ÇÔ¼ö ½ÇÇà
-	int num; // num: ÀÔ·Â¹ŞÀº ¼ıÀÚ¸¦ ÀúÀåÇÏ´Â º¯¼ö
-	int result; // result: fiboÇÔ¼ö¸¦ ½ÇÇàÇÑ °á°ú°ªÀ» ÀúÀåÇÏ´Â º¯¼ö
+int main(void) { 
+	int num; // ì…ë ¥ë°›ì€ ìˆ«ìë¥¼ ì €ì¥í•˜ëŠ” ë³€ìˆ˜
+	int result; // fiboí•¨ìˆ˜ë¥¼ ì‹¤í–‰í•œ ê²°ê³¼ê°’ì„ ì €ì¥í•˜ëŠ” ë³€ìˆ˜
+	count = 0; // í”¼ë³´ë‚˜ì¹˜ìˆ˜ì—´ ì¬ê·€í•¨ìˆ˜ í˜¸ì¶œ íšŸìˆ˜ ì¹´ìš´íŠ¸ ë³€ìˆ˜ ì´ˆê¸°í™”
 
-	count = 0; // count: ÇÇº¸³ªÄ¡¼ö¿­ Àç±ÍÇÔ¼ö È£Ãâ È½¼ö Ä«¿îÆ® º¯¼ö ÃÊ±âÈ­
+	printf("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”. ");
+	scanf_s("%d", &num);
 
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. "); // ¼ıÀÚ¸¦ ÀÔ·Â¹Ş±â À§ÇÑ ¹®Àå Ãâ·Â
-	scanf_s("%d", &num); // ¼ıÀÚ ÀÔ·Â ¹Ş±â
+	printf("n=%dì„ ë„£ì—ˆì„ ë•Œ\n", num);
 
-	printf("n=%dÀ» ³Ö¾úÀ» ¶§\n", num);  // ÀÔ·Â¹ŞÀº °ª Ãâ·Â
-
-	for (int i = 1; i <= num; i++) { // i¸¦ num±îÁö 1¾¿ Áõ°¡ÇÏ¿© ¹İº¹¹® ¼öÇà
-		result = fibo(i); // result¿¡ fiboÇÔ¼ö¸¦ ½ÇÇàÇÑ °ª ÀúÀå
-		printf("Fibo(%d)=%d => %d¹ø\n", i, result, count); // ÇÔ¼öÀÇ °è»ê°ª ¹× È½¼ö Ãâ·Â
-		count = 0; // ÇÇº¸³ªÄ¡¼ö¿­ÀÇ °á°ú °ªÀ» ¹Ş¾ÒÀ¸¹Ç·Î ´©Àûº¯¼ö count°ª ÃÊ±âÈ­
+	for (int i = 1; i <= num; i++) { 
+		result = fibo(i);
+		printf("Fibo(%d)=%d => %dë²ˆ\n", i, result, count); 
+		count = 0;
 	}
 
-	return 0; // °ªÀ» 0À¸·Î ¹İÈ¯ÇÏ°í main ÇÔ¼ö Á¾·á
-
-}
+	return 0;
